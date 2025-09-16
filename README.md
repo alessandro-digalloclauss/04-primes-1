@@ -30,13 +30,13 @@ Le fichier ``main.py`` contient :
 
 Le score de test ``ST`` obtenu est le pourcentage de tests réussis. Tant que certains tests échouent, répéter le cycle 1️⃣ 2️⃣ 3️⃣ 4️⃣
 
-5️⃣ Lorsque le score de test ``ST`` est satisfaisant, s'intéresser à la [qualité du code](https://perso.esiee.fr/~courivad/courses/utils/python-23-codequality.html).
+5️⃣ Lorsque le score de test ``ST`` est satisfaisant, s'intéresser à la [qualité du code](https://perso.esiee.fr/~courivad/courses/utils/sources/python-23-codequality.html).
 
     $ ./check -q
 
 Si le score de qualité ``SQ`` n'est pas maximal, répéter l'étape 5️⃣ en tenant compte des messages dans le terminal
 
-6️⃣ Lorsque les scores ``SC`` et ``SQ`` sont satisfaisants, confirmer les valeurs qui seront utilisées pour l'évaluation
+6️⃣ Lorsque les scores ``ST`` et ``SQ`` sont satisfaisants, confirmer les valeurs qui seront utilisées pour l'évaluation
 
     $ ./check
 
